@@ -7,22 +7,6 @@ body {
   font-family: "kudryashev-d-contrast-sans", sans-serif; /* Adobe Fonts에서 활성화한 실제 폰트 이름으로 대체하세요 */
 }
 
-/* 뒤 기타 스타일들 */
-.header {
-  background-color: #cccccc;
-  padding: 20px;
-  text-align: center;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  box-shadow: 0 4px 2px -2px gray;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1001;
-}
-
 .sub-header {
   background-color: #cccccc;
   padding: 20px;
@@ -34,58 +18,6 @@ body {
   display: flex;
   align-items: center;
   margin-top: 80px;
-}
-
-.close-button {
-  font-size: 24px;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-  position: absolute;
-  top: 10px;
-  right: 20px;
-}
-
-.menu-button {
-  font-size: 24px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  left: 20px;
-}
-
-.menu {
-  position: fixed;
-  top: 0;
-  left: -40%;
-  width: 40%;
-  height: 100%;
-  background-color: #333;
-  color: white;
-  transition: left 0.3s ease;
-  z-index: 1000;
-  padding-top: 60px;
-}
-
-.menu.open {
-  left: 0;
-}
-
-.menu nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.menu nav ul li {
-  padding: 10px 20px;
-}
-
-.menu nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
 }
 
 .product-container {
@@ -248,35 +180,4 @@ body {
 
 .App {
   text-align: center;
-}
-
-.header {
-  background-color: #cccccc; /* 첫번째 CSS 파일의 rule 우선 */
-  padding: 20px;
-  text-align: center;
-  top: 0;
-  left: 0;
-  height: 80px;
-  width: auto;
-  box-shadow: 0 4px 2px -2px gray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 1001; /* 첫번째 CSS 파일의 rule 우선 */
-  margin-bottom: 5px; /* 추가된 속성 */
-}
-
-.menu-button {
-  font-size: 24px; /* 첫번째 CSS 파일의 rule 우선 */
-  background: none;
-  border: none;
-  cursor: pointer;
-  position: absolute;
-  left: 20px; /* 첫번째 CSS 파일의 rule 우선 */
-  margin-right: 20px; /* 추가된 속성 */
-}
-
-.home-link {
-  font-size: 40px;
-  align-items: center;
 }

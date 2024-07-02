@@ -1,0 +1,77 @@
+/* src/pages/Main.css */
+
+.header {
+  background-color: white; /* 흰색 배경 */
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  margin-bottom: 1px;
+}
+
+.open-button {
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  left: 20px;
+}
+
+.Main-link {
+  color: black; /* 검정색 글씨 */
+  text-decoration: none;
+  font-size: 2em; /* 크기를 좀 더 크게 설정 */
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background-color: #333;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+.menu.open {
+  left: 0;
+}
+
+.menu nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.menu nav ul li {
+  padding: 10px 20px;
+}
+
+.menu nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.close-button {
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 40px;
+  right: 20px;
+}
+

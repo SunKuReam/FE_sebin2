@@ -31,7 +31,7 @@ const MainImages = () => {
       </button>
       <img
         src={images[currentIndex]}
-        alt={`Gallery Image ${currentIndex + 1}`}
+        alt={`Main img${currentIndex + 1}`}
         className="product-image"
       />
       <button className="slider-button" onClick={nextImage}>

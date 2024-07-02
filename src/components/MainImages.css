@@ -8,11 +8,6 @@
   text-align: center;
 }
 
-.product-image {
-  width: 100%;
-  height: auto;
-}
-
 .slider-button {
   position: absolute;
   top: 50%;
@@ -24,6 +19,13 @@
   cursor: pointer;
   z-index: 1;
 }
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+
 
 .slider-button:hover {
   background-color: rgba(0, 0, 0, 0.8);

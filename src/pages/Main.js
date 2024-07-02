@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import MainImages from "../components/MainImages";
+import MainBrandDescription from "../components/MainBrandDescription";
+import "../components/MainImages.css";
+import "./Main.css";
 import "../App.css";
 
 function Main() {
@@ -14,7 +17,7 @@ function Main() {
   return (
     <div className="App">
       <header className="header">
-        <button className="menu-button" onClick={toggleMenu}>
+        <button className="open-button" onClick={toggleMenu}>
           ☰
         </button>
         <h1>
@@ -45,29 +48,7 @@ function Main() {
 
       {/* 브랜드 정보 */}
       <div>
-        <p>
-          MON - FRI AM 10:00 - PM 18:00
-          <br />
-          LUNCH TIME PM 12:00 - PM 13:00
-          <br />
-          SAT, SUN, HOLIDAY OFF
-        </p>
-        <p>
-          COMPANY SUN OFFICE
-          <br />
-          OWNER | BAE SEO HYEON
-          <br />
-          TEL 010-8820-4903 | E-MAIL SUNOFFICE@NAVER.COM
-          <br />
-          INSTAGRAM | {"  "}
-          <a
-            href="https://www.instagram.com/sun_office__/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @sun_office__
-          </a>
-        </p>
+        <MainBrandDescription />
       </div>
     </div>
   );
