@@ -23,6 +23,7 @@ import logoPearlKeychain from "./mainpage_images/logo_pearl_keychain.png";
 import pearlLongScar from "./mainpage_images/pearl_long_scar.png";
 
 import "../App.css";
+import MainBrandDescription from "./MainBrandDescription";
 
 // 상품 id, 이름, Url, 가격 및 설명을 저장하는 Array
 const products = [
@@ -269,31 +270,7 @@ function SS2025Images() {
           </div>
         ))}
       </div>
-      <div className="footer">
-        <p>
-          MON - FRI AM 10:00 - PM 18:00
-          <br />
-          LUNCH TIME PM 12:00 - PM 13:00
-          <br />
-          SAT, SUN, HOLIDAY OFF
-        </p>
-        <p>
-          COMPANY SUN OFFICE
-          <br />
-          OWNER | BAE SEO HYEON
-          <br />
-          TEL 010-8820-4903 | E-MAIL SUNOFFICE@NAVER.COM
-          <br />
-          INSTAGRAM |{" "}
-          <a
-            href="https://www.instagram.com/sun_office__/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            @sun_office__
-          </a>
-        </p>
-      </div>
+      <MainBrandDescription />
     </div>
   );
 }

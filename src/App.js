@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Main from "./pages/Main";
-import SS2025 from "./pages/SS2025";
-import ProductDetail from "./pages/ProductDetail";
+import MainPage from "./pages/MainPage";
+import SS2025Page from "./pages/SS2025Page";
+import ProductDetailPage from "./pages/ProductDetailPage";
 
 export function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/SS2025" element={<SS2025 />} />
-        <Route path="/product/:id" element={<ProductDetail />} />
+        <Route path="/" element={<MainPage />} />
+        <Route path="/SS2025" element={<SS2025Page />} />
+        <Route path="/product/:id" element={<ProductDetailPage />} />
       </Routes>
     </Router>
   );

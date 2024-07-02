@@ -3,9 +3,11 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import products from "../data/products";
 import { useState } from "react";
+
+import Header from "../components/Header";
 import "../App.css";
 
-function ProductDetail() {
+function ProductDetailPage() {
   const { id } = useParams();
   const productId = parseInt(id, 10);
   const product = products.find((p) => p.id === productId);
@@ -21,17 +23,9 @@ function ProductDetail() {
 
   return (
     <div className="product-detail-page">
-      <header className="header">
-        <button className="menu-button" onClick={toggleMenu}>
-          ☰
-        </button>
-        <h1>
-          <Link to="/" className="home-link">
-            SUN
-          </Link>
-        </h1>
-      </header>
-
+      {menuOpen && <div className="blur-background"></div>} {/* 블러 배경 */}
+      {/* 헤더 부분 */}
+      <Header toggleMenu={toggleMenu} />
       <div className={`menu ${menuOpen ? "open" : ""}`}>
         <button className="close-button" onClick={toggleMenu}>
           ☰
@@ -39,12 +33,13 @@ function ProductDetail() {
         <nav>
           <ul>
             <li>
-              <Link to="/">Home</Link>
+              <Link to="/" className="button-text">
+                Home
+              </Link>
             </li>
           </ul>
         </nav>
       </div>
-
       <div className="product-detail-container">
         <div className="product-detail-content">
           <div className="product-detail-image-container">
@@ -84,4 +79,4 @@ function ProductDetail() {
   );
 }
 
-export default ProductDetail;
+export default ProductDetailPage;
