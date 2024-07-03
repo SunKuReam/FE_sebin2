@@ -1,4 +1,7 @@
 // src/data/products.js
+// 매우매우 중요한 데이터셋
+
+// 옷
 import DRV1 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_01.jpg";
 import DRV2 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_02.jpg";
 import DRV3 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_03.jpg";

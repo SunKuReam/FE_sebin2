@@ -10,6 +10,7 @@ import "../App.css";
 import "./ProductDetailPage.css";
 
 function ProductDetailPage() {
+  //제품의 id값을 이용해서 동작
   const { id } = useParams();
   const productId = parseInt(id, 10);
   const product = products.find((p) => p.id === productId);
@@ -21,10 +22,10 @@ function ProductDetailPage() {
   };
 
   if (!product) {
-    return <div>Product not found</div>;
+    return <div>제품 데이터가 없습니다.</div>;
   }
 
-  const nextImage = () => {
+  const nextImage = () => { 
     setCurrentImageIndex((prevIndex) =>
       prevIndex === product.imageUrl.length - 1 ? 0 : prevIndex + 1
     );

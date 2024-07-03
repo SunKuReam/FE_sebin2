@@ -73,13 +73,14 @@
   box-sizing: border-box;
 }
 
+/* 화면 너비가 767px 이상이면 사진 오른쪽에 제품 정보 표시 */
 @media (min-width: 768px) {
   .product-detail-content {
     flex-direction: row;
   }
 }
 
-/* 화면 너비가 767px 이하일 때 적용 */
+/* 화면 너비가 767px 이하이면 사진 아래에 제품 정보 표시 */
 @media (max-width: 767px) {
   .product-detail-content {
     flex-direction: column;
@@ -100,7 +101,7 @@
 
 .product-detail-info h2 {
   margin-top: 20px;
-  margin-bottom: 115px; /* 상품명과 가격 간격 늘리기 */
+  margin-bottom: 30px; /* 상품명과 가격 간격 늘리기 */
 }
 
 .product-detail-info .price {
@@ -146,8 +147,8 @@
 .product-detail-info .actions button {
   flex: 1;
   margin: 0 5px;
-  padding: 10px 20px;
-  font-size: 16px;
+  padding: 10px 15px;
+  font-size: 13px;
   cursor: pointer;
   border: none;
   background-color: black;

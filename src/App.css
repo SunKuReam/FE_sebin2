@@ -9,7 +9,7 @@ body {
   font-family: "kudryashev-d-contrast-sans", sans-serif; 
 }
 
-
+/* 블러 */
 .blur-background {
   position: fixed;
   top: 0;
@@ -69,14 +69,6 @@ body {
     display: block;
     width: 100%;
   }
-}
-
-/* 홈 페이지 푸터 스타일 */
-.footer {
-  margin-top: 50px;
-  padding: 20px;
-  background-color: #f1f1f1;
-  text-align: center;
 }
 
 

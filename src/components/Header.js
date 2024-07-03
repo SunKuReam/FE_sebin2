@@ -1,7 +1,8 @@
 // src/components/Header.js
 import React from "react";
 import { Link } from "react-router-dom";
-import "./Header.css"; // 필요한 경우 스타일 파일 임포트
+
+import "./Header.css"; 
 
 function Header({ toggleMenu }) {
   return (

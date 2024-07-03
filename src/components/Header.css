@@ -12,3 +12,20 @@
   z-index: 800;
   margin-bottom: 1px;
 }
+
+.Main-link {
+  color: black; /* 검정색 글씨 */
+  text-decoration: none;
+  font-size: 2em; /* 크기를 좀 더 크게 설정 */
+}
+
+.open-button {
+  font-size: 50px;
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}

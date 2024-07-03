@@ -1,16 +1,4 @@
 /* src/pages/Main.css */
-
-.open-button {
-  font-size: 50px;
-  background: none;
-  border: none;
-  color: black;
-  cursor: pointer;
-  position: absolute;
-  top: 30px;
-  left: 20px;
-}
-
 .close-button {
   font-size: 50px;
   background: none;
@@ -22,10 +10,8 @@
   right: 20px;
 }
 
-.Main-link {
-  color: black; /* 검정색 글씨 */
-  text-decoration: none;
-  font-size: 2em; /* 크기를 좀 더 크게 설정 */
+.button-text{
+  color: black !important;
 }
 
 .menu {
@@ -34,15 +20,11 @@
   left: -40%;
   width: 40%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #7b7272;
   color: white;
   transition: left 0.3s ease;
   z-index: 1000;
   padding-top: 60px;
-}
-
-.button-text{
-  color: black !important;
 }
 
 .menu.open {
