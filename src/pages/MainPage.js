@@ -2,13 +2,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
+import Header from "../components/Header";
 import MainImages from "../components/MainImages";
 import MainBrandDescription from "../components/MainBrandDescription";
-import Header from "../components/Header";
 
+import "../App.css";
 import "../components/MainImages.css";
 import "./MainPage.css";
-import "../App.css";
 
 function MainPage() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -19,12 +19,13 @@ function MainPage() {
 
   return (
     <div className="App">
-      {menuOpen && <div className="blur-background"></div>} {/* 블러 배경 */}
-      {/* 헤더 부분 */}
+      {/* 블러 */}
+      {menuOpen && <div className="blur-background"></div>} 
+      {/* 헤더 */}
       <Header toggleMenu={toggleMenu} />
       {/* 메인 페이지 사진 */}
       <div>
-        <MainImages />
+        <MainImages  />
       </div>
       {/*메뉴 창*/}
       <div className={`menu ${menuOpen ? "open" : ""}`}>

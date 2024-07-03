@@ -1,33 +1,55 @@
-/* src/components/SS2025Images.css */
-
-.product-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding: 10px;
-  margin-top: 120px;
+/* src/pages/ProductDetailPage.css */
+.menu {
+  position: fixed;
+  top: 0;
+  left: -40%;
+  width: 40%;
+  height: 100%;
+  background-color: #ffffff;
+  color: white;
+  transition: left 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
 }
 
-.product-card {
-  flex: 0 0 48%;
-  box-sizing: border-box;
-  margin-bottom: 20px;
-  padding: 10px;
+.menu nav {
+  display: flex; /* 플렉스 박스 컨테이너로 설정 */
+  justify-content: center; /* 수평 중앙 정렬 */
+  margin-top: 50px;
+  height: 100%; /* nav가 메뉴의 전체 높이를 차지하도록 설정 */
+}
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  line-height: 10px;
+}
+
+.slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* 원하는 최대 너비로 조절하세요 */
+  margin: auto;
+  overflow: hidden;
   text-align: center;
 }
 
-.product-image {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
+.slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
 }
 
-.product-name {
-  font-size: 16px;
-  font-weight: bold;
-  margin: 0;
-  color: black; /* 검정색 글씨 */
-}
 
 .product-detail-page {
   display: flex;
@@ -41,6 +63,27 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+
+.product-detail-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+@media (min-width: 768px) {
+  .product-detail-content {
+    flex-direction: row;
+  }
+}
+
+/* 화면 너비가 767px 이하일 때 적용 */
+@media (max-width: 767px) {
+  .product-detail-content {
+    flex-direction: column;
+  }
 }
 
 .product-detail-image-container {

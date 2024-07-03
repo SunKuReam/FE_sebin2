@@ -6,7 +6,7 @@ const importAll = (requireContext) => requireContext.keys().map(requireContext);
 
 // 이미지를 동적으로 가져옵니다
 const images = importAll(
-  require.context("../images/images_mainpage", false, /\.(png|jpe?g|svg)$/)
+  require.context("../images/0. images_mainpage", false, /\.(png|jpe?g|svg)$/)
 );
 
 const MainImages = () => {
