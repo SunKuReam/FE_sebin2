@@ -93,7 +93,6 @@ import CS9 from "../images/6. cotton sleeveless/sun cotton sleeveless_페이지_
 import CS10 from "../images/6. cotton sleeveless/sun cotton sleeveless_페이지_10.jpg";
 import CS11 from "../images/6. cotton sleeveless/sun cotton sleeveless_페이지_11.jpg";
 
-
 import DBPS1 from "../images/7. double belted pleats skirt/sun double belted pleats skirt_페이지_01.jpg";
 import DBPS2 from "../images/7. double belted pleats skirt/sun double belted pleats skirt_페이지_02.jpg";
 import DBPS3 from "../images/7. double belted pleats skirt/sun double belted pleats skirt_페이지_03.jpg";
