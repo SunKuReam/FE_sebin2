@@ -25,5 +25,25 @@
   color: black;
   cursor: pointer;
   position: absolute;
-  left: 5%;
+}
+
+@media (max-width: 768px) and (orientation: portrait) {
+  /* 모바일 세로 모드에 대한 스타일 */
+  .open-button{
+    left: 2%
+  }
+}
+
+@media (max-width: 768px) and (orientation: landscape) {
+  /* 모바일 가로 모드에 대한 스타일 */
+  .open-button{
+    left: 5%
+  }
+}
+
+@media (min-width: 768px) {
+  /* 컴퓨터 화면 */
+  .open-button{
+    left: 5%
+  }
 }
