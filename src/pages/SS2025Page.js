@@ -18,9 +18,7 @@ function SS2025Page() {
     <div className="App">
       {menuOpen && <div className="blur-background"></div>} {/* 블러 배경 */}
       <Header toggleMenu={toggleMenu} />
-      <div>
-        <SS2025Images />
-      </div>
+      <SS2025Images />
       {/*메뉴 창*/}
       <div className={`menu ${menuOpen ? "open" : ""}`}>
         <button className="close-button" onClick={toggleMenu}>
