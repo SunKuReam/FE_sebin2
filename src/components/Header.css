@@ -2,7 +2,7 @@
   background-color: white; /* 흰색 배경 */
   padding: 10px;
   text-align: center;
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   width: 100%;
@@ -19,12 +19,11 @@
 }
 
 .open-button {
-  font-size: 50px;
+  font-size: 3em;
   background: none;
   border: none;
   color: black;
   cursor: pointer;
   position: absolute;
-  top: 20px;
-  left: 20px;
+  left: 5%;
 }

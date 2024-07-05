@@ -3,7 +3,7 @@ import "./MainBrandDescription.css";
 
 function MainBrandDescription() {
   return (
-    <div className="App">
+    <div className="description-style">
       <p>
         MON - FRI AM 10:00 - PM 18:00
         <br />
