@@ -18,15 +18,13 @@ function MainPage() {
   };
 
   return (
-    <div className="App">
-      {/* 블러 */}
-      {menuOpen && <div className="blur-background"></div>} 
+    <div className="mainpage-class">
       {/* 헤더 */}
       <Header toggleMenu={toggleMenu} />
+      {/* 블러 */}
+      {menuOpen && <div className="blur-background"></div>} 
       {/* 메인 페이지 사진 */}
-      <div>
-        <MainImages  />
-      </div>
+      <MainImages  />
       {/*메뉴 창*/}
       <div className={`menu ${menuOpen ? "open" : ""}`}>
         <button className="close-button" onClick={toggleMenu}>
@@ -43,9 +41,7 @@ function MainPage() {
         </nav>
       </div>
       {/* 브랜드 정보 */}
-      <div>
-        <MainBrandDescription />
-      </div>
+      <MainBrandDescription />
     </div>
   );
 }

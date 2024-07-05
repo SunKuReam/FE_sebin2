@@ -1,6 +1,6 @@
 .header {
   background-color: white; /* 흰색 배경 */
-  padding: 20px;
+  padding: 10px;
   text-align: center;
   position: fixed;
   top: 0;
@@ -10,7 +10,6 @@
   justify-content: center;
   align-items: center;
   z-index: 800;
-  margin-bottom: 1px;
 }
 
 .Main-link {
@@ -26,6 +25,6 @@
   color: black;
   cursor: pointer;
   position: absolute;
-  top: 30px;
+  top: 20px;
   left: 20px;
 }

@@ -1,14 +1,14 @@
 /* 슬라이더 스타일 */
-.slider {
+.mainimages-slider {
   position: relative;
   width: 100%;
-  max-width: 600px; /* 원하는 최대 너비로 조절하세요 */
+  max-width: 500px; /* 원하는 최대 너비로 조절하세요 */
   margin: auto;
   overflow: hidden;
   text-align: center;
 }
 
-.slider-button {
+.slider-button {  
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -21,11 +21,9 @@
 }
 
 .product-image {
-  width: 100%;
+  width: 80%;
   height: auto;
 }
-
-
 
 .slider-button:hover {
   background-color: rgba(0, 0, 0, 0.8);

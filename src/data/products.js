@@ -2,22 +2,22 @@
 // 매우매우 중요한 데이터셋
 
 // 옷
-import DRV1 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_01.jpg";
-import DRV2 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_02.jpg";
-import DRV3 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_03.jpg";
-import DRV4 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_04.jpg";
-import DRV5 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_05.jpg";
-import DRV6 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_06.jpg";
-import DRV7 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_07.jpg";
-import DRV8 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_08.jpg";
-import DRV9 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_09.jpg";
-import DRV10 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_10.jpg";
-import DRV11 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_11.jpg";
-import DRV12 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_12.jpg";
-import DRV13 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_13.jpg";
-import DRV14 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_14.jpg";
-import DRV15 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_15.jpg";
-import DRV16 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_16.jpg";
+import DBV1 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_01.jpg";
+import DBV2 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_02.jpg";
+import DBV3 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_03.jpg";
+import DBV4 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_04.jpg";
+import DBV5 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_05.jpg";
+import DBV6 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_06.jpg";
+import DBV7 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_07.jpg";
+import DBV8 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_08.jpg";
+import DBV9 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_09.jpg";
+import DBV10 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_10.jpg";
+import DBV11 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_11.jpg";
+import DBV12 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_12.jpg";
+import DBV13 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_13.jpg";
+import DBV14 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_14.jpg";
+import DBV15 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_15.jpg";
+import DBV16 from "../images/1. double brasted jacket/sun 1, double brasted jacket _페이지_16.jpg";
 
 import BSPP1 from "../images/2. belted side pocket pants/sun2. belted side pocket pants_페이지_01.jpg";
 import BSPP2 from "../images/2. belted side pocket pants/sun2. belted side pocket pants_페이지_02.jpg";
@@ -190,8 +190,8 @@ import PT13 from "../images/14. pearl tie(3color)/sun pearl tie(3color)_페이�
 const products = [
   {
     id: 1,
-    name: "Double rasted vest",
-    imageUrl: [DRV1, DRV2, DRV3, DRV4, DRV5, DRV6, DRV7, DRV8, DRV9, DRV9, DRV10, DRV11, DRV12, DRV13, DRV14, DRV15, DRV16],
+    name: "Double brasted vest",
+    imageUrl: [DBV1, DBV2, DBV3, DBV4, DBV5, DBV6, DBV7, DBV8, DBV9, DBV9, DBV10, DBV11, DBV12, DBV13, DBV14, DBV15, DBV16],
     price: "₩459,000",
     description: `
       P 64%, R 34%, PU 2%
@@ -363,7 +363,7 @@ const products = [
     id: 10,
     name: "Handmade pearl tie (3color)",
     imageUrl: [PT1, PT2, PT3, PT4, PT5, PT6, PT7, PT8, PT9, PT10, PT11, PT12, PT13],
-    price: "₩138,000",
+    price: "₩179,000",
     description: `
       - 핵진주 사용
       - 오닉스 사용 (black color)

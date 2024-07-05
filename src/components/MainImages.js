@@ -25,9 +25,9 @@ const MainImages = () => {
   };
 
   return (
-    <div className="slider">
+    <div className="mainimages-slider">
       <button className="slider-button" onClick={prevImage}>
-        &#10094;
+      &#10094;
       </button>
       <img
         src={images[currentIndex]}
