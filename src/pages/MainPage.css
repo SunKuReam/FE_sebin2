@@ -24,7 +24,7 @@
 
 @media (max-width: 768px) and (orientation: landscape) {
   /* 모바일 가로 모드에 대한 스타일 */
-  .open-button{
+  .close-button{
     top: 20px;
     right: 10%;
   }
@@ -32,7 +32,8 @@
 
 @media (min-width: 768px) {
   /* 컴퓨터 화면 */
-  .open-button{
+  .close-button{
+    top: 30px;
     right: 7%;
   }
 }
